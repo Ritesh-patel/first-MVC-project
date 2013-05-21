@@ -1,0 +1,225 @@
+/* 
+    Document   : style
+    Created on : Aug 12, 2012, 12:51:43 PM
+    Author     : Ritz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.heaing
+{
+    color:#D50025; 
+    font-size:40px;     
+}
+
+ .homeButton 
+ {
+    border: 0px solid #CD0000;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, #C21300), color-stop(0.9, #F70000) );
+    background: -moz-linear-gradient( center top, #C21300 10%, #F70000 90% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C21300', endColorstr='#F70000');
+    background-color: #C21300;
+    -moz-box-shadow: inset 0px 0px 1px 1px #F7F7F7;
+    -webkit-box-shadow: inset 0px 0px  1px 1px #F7F7F7;
+    box-shadow: inset 0px 0px  1px 1px #F7F7F7;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 1px #FEFCFF;
+    font-weight: bold;
+    margin: 5px 5px;
+    padding: 3px 0px;
+    color: #F0EB8C;
+    letter-spacing: 0px;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    width: 500px;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+ }
+ 
+ 
+.homeButton:hover 
+{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, #F70000), color-stop(0.9, #C21300) );
+    background: -moz-linear-gradient( center top, #F70000 10%, #C21300 90% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F70000', endColorstr='#C21300');
+    background-color: #F70000;
+}
+.homeButton:active 
+{
+    position: relative;
+    top: 1px;
+    left: 0px;
+}
+        
+        
+.link a
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+.link a:hover
+{
+    color: #C21300;
+}
+    
+.CSSButton {
+border: 1px solid #CD0000;
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, #C21300), color-stop(0.9, #F70000) );
+    background: -moz-linear-gradient( center top, #C21300 10%, #F70000 90% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C21300', endColorstr='#F70000');
+    background-color: #C21300;
+-moz-box-shadow: inset 0px 1px 2px 0px #FFFFFF;
+-webkit-box-shadow: inset 0px 1px  2px 0px #FFFFFF;
+box-shadow: inset 0px 1px  2px 0px #FFFFFF;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+text-shadow: 1px 1px 2px #000000;
+font-weight: bold;
+margin: 2px 2px;
+padding: 2px 2px;
+color: #FFFFFF;
+letter-spacing: 1px;
+font-family: 'Arial', sans-serif;
+font-size: 11px;
+width: 100px;
+text-transform: capitalize;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+display: inline-block;
+}
+.CSSButton:hover {
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, #F70000), color-stop(0.9, #C21300) );
+    background: -moz-linear-gradient( center top, #F70000 10%, #C21300 90% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F70000', endColorstr='#C21300');
+    background-color: #F70000;
+}
+
+.title
+{
+    color: #9F1313;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.isbn
+{
+    font-size: 12px;
+    color: #C21300;
+    padding-left: 5px;
+}
+.author
+{
+    font-size: 12px;
+    color: #C21300;
+    padding-left: 5px;
+}
+.publisher
+{
+    font-size: 12px;
+    color: #C21300;
+    padding-left: 5px;
+}
+
+.price
+{
+    padding-left: 2px;
+    color: #D50025;
+    font-weight: bold;
+}
+
+.CSSButton1
+{
+    background-image: url(../images/addtocart.png);     
+          /* make the cursor like hovering over an <a> element */
+    background-repeat: no-repeat;
+    color:transparent;
+    background-position:center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border: none;    
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+       /* make text start to the right of the image */
+    vertical-align: middle; 
+
+ 
+}
+
+.checkOut
+ {
+    border: 0px solid #CD0000;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, #C21300), color-stop(0.9, #F70000) );
+    background: -moz-linear-gradient( center top, #C21300 10%, #F70000 90% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C21300', endColorstr='#F70000');
+    background-color: #C21300;
+    -moz-box-shadow: inset 0px 0px 1px 1px #F7F7F7;
+    -webkit-box-shadow: inset 0px 0px  1px 1px #F7F7F7;
+    box-shadow: inset 0px 0px  1px 1px #F7F7F7;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 1px #FEFCFF;
+    font-weight: bold;
+    margin: 5px 5px;
+    padding: 3px 0px;
+    color: #F0EB8C;
+    letter-spacing: 0px;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    width: 400px;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    
+ }
+ 
+ 
+.checkOut:hover 
+{
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.1, #F70000), color-stop(0.9, #C21300) );
+    background: -moz-linear-gradient( center top, #F70000 10%, #C21300 90% );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F70000', endColorstr='#C21300');
+    background-color: #F70000;
+}
+
+
+.form
+{
+    color: #9F1313;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.order
+{
+    padding-left: 2px;
+    color: #D50025;    
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;
+    
+}
+
+.order1
+{
+   padding-left: 2px;
+    color: #D50025;    
+    font-size: 20px; 
+    font-family: Verdana, Geneva, sans-serif;
+}
